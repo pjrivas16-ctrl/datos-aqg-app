@@ -28,6 +28,11 @@ const DocumentIcon = () => (
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
     </svg>
 );
+const BriefcaseIcon = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 14.15v4.07a2.25 2.25 0 01-2.25 2.25h-13.5a2.25 2.25 0 01-2.25-2.25V14.15M16.5 21v-4.875a.75.75 0 00-.75-.75h-4.5a.75.75 0 00-.75.75V21M6.75 21v-4.875A.75.75 0 017.5 15h4.5a.75.75 0 01.75.75V21M6.75 21H3.75a2.25 2.25 0 01-2.25-2.25V8.167c0-.621.504-1.125 1.125-1.125h16.5c.621 0 1.125.504 1.125 1.125v8.158a2.25 2.25 0 01-2.25 2.25h-3M10.5 6h3M12 3v3" />
+    </svg>
+);
 
 const TransparencyPage: React.FC = () => {
     return (
@@ -95,6 +100,22 @@ const TransparencyPage: React.FC = () => {
                         <p className="font-semibold text-slate-600">Nota sobre combinación:</p>
                         <p className="text-xs text-slate-500">Si un cliente nuevo adquiere la <strong>Promo de Bienvenida y también la Promo Expositor</strong>, la comisión para ambas ventas será del <strong className="font-bold text-teal-600">10%</strong>.</p>
                     </div>
+                </InfoCard>
+
+                <InfoCard
+                    title="BOX COMERCIAL"
+                    description="Estas son las herramientas físicas de muestrario. Son muestras intransferibles que sirven para tu trabajo, al igual que el catálogo físico."
+                    icon={<BriefcaseIcon />}
+                >
+                    <ul className="list-disc list-inside space-y-1 text-sm">
+                        <li>CATÁLOGO FÍSICO AQG</li>
+                        <li>1 TOOL KIT con muestras de color solido, acabados TECH y muestras de panel SPC.</li>
+                        <li>1 placa terrazo textura plato.</li>
+                        <li>1 placa terrazo textura encimera.</li>
+                        <li>1 MINIPLATO blanco CON REJILLA ORO CEPILLADO PVD.</li>
+                        <li>1 miniplato blanco CON REJILLA ORO ROSA CEPILLADO PVD.</li>
+                        <li>1 MINIPLATO BLANCO con rejilla GUN METAL PVD.</li>
+                    </ul>
                 </InfoCard>
             </div>
         </div>
