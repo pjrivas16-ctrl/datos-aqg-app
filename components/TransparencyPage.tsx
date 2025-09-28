@@ -110,11 +110,11 @@ const TransparencyPage: React.FC = () => {
                     <ul className="list-disc list-inside space-y-1 text-sm">
                         <li>CATÁLOGO FÍSICO AQG</li>
                         <li>1 TOOL KIT con muestras de color solido, acabados TECH y muestras de panel SPC.</li>
-                        <li>1 placa terrazo textura plato.</li>
-                        <li>1 placa terrazo textura encimera.</li>
+                        <li>1 PLACA terrazo textura plato.</li>
+                        <li>1 PLACA terrazo textura encimera.</li>
                         <li>1 MINIPLATO blanco CON REJILLA ORO CEPILLADO PVD.</li>
-                        <li>1 miniplato blanco CON REJILLA ORO ROSA CEPILLADO PVD.</li>
-                        <li>1 MINIPLATO BLANCO con rejilla GUN METAL PVD.</li>
+                        <li>1 MINIPLATO blanco CON REJILLA ORO ROSA CEPILLADO PVD.</li>
+                        <li>1 MINIPLATO blanco CON REJILLA GUN METAL PVD.</li>
                     </ul>
                 </InfoCard>
             </div>
