@@ -56,7 +56,12 @@ const MaintenanceGuidesPage: React.FC = () => {
             <div className="flex flex-col gap-6">
                 <ResourceCard
                     title="Platos de Ducha"
-                    description="Guía completa para la instalación y el cuidado de nuestros platos de ducha de resina con cargas minerales."
+                    description={
+                        <>
+                            Guía completa para la instalación y el cuidado de nuestros platos de ducha de resina con cargas minerales.
+                            <p className="font-semibold text-teal-700 mt-2">Este documento se incluye impreso en el embalaje de cada plato.</p>
+                        </>
+                    }
                     icon={<DownloadIcon />}
                     actions={
                         <Button onClick={() => window.open(showerTrayGuideUrl, '_blank')}>
@@ -66,7 +71,12 @@ const MaintenanceGuidesPage: React.FC = () => {
                 />
                 <ResourceCard
                     title="Encimeras"
-                    description="Instrucciones detalladas para la instalación y el mantenimiento de las encimeras de resina AQG."
+                    description={
+                        <>
+                            Instrucciones detalladas para la instalación y el mantenimiento de las encimeras de resina AQG.
+                            <p className="font-semibold text-teal-700 mt-2">Este documento se incluye impreso en el embalaje de cada encimera.</p>
+                        </>
+                    }
                     icon={<DownloadIcon />}
                     actions={
                         <Button onClick={() => window.open(countertopGuideUrl, '_blank')}>
